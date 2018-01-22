@@ -1,0 +1,111 @@
+// Styling for the features section
+section.features {
+    .partners {
+        font-size: 24px;
+        font-weight: 600;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .futureplaylogo {
+        width: 400px;
+    }
+
+    @media(max-width: 992px) {
+        .futureplaylogo {
+            width: 100%;
+        }
+    }
+
+    .press-container {
+        padding-top: 80px;
+        padding-bottom: 100px;
+    }
+
+    .press-contents {
+
+    }
+
+    .press {
+        font-size: 24px;
+        font-weight: 600;
+        padding-top: 80px;
+        margin-bottom: 20px;
+        text-align: left;
+    }
+
+    .press1 {
+        width: 50%;
+        float:left;
+    }
+
+    .press2{
+        width: 50%;
+    }
+
+    .press3{
+        width: 50%;
+        float: left;
+    }
+
+    .press4{
+        width: 50%;
+    }
+
+    @media(max-width: 992px){
+        .press1 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .press2 {
+            width: 100%;
+            padding-bottom:30px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .press3 {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .press4 {
+            width: 100%;
+            padding-bottom:30px;
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
+    //.device-container,
+    //.feature-item {
+    //    max-width: 325px;
+    //    margin: 0 auto;
+    //}
+    //.device-container {
+    //    margin-bottom: 100px;
+    //    @media(min-width: 992px) {
+    //        margin-bottom: 0;
+    //    }
+    //}
+    //.feature-item {
+    //    padding-top: 50px;
+    //    padding-bottom: 50px;
+    //    text-align: center;
+    //    h3 {
+    //        font-size: 30px;
+    //    }
+    //    i {
+    //        font-size: 80px;
+    //        display: block;
+    //        margin-bottom: 15px;
+    //        background: -webkit-linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    //        background: linear-gradient(to left, $theme-secondary, $theme-tertiary);
+    //        -webkit-background-clip: text;
+    //        -webkit-text-fill-color: transparent;
+    //    }
+    //}
+}
